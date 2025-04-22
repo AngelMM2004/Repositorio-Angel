@@ -8,7 +8,7 @@ public class Calculadora {
     public static void opcionesParaElegir() {
         System.out.println("-------------------------------------------------");
         System.out.println("Elige una de las opciones para realizar calculos:");
-        System.out.println("Pulsa 1 para realizar una suma.");
+        System.out.println("Pulsa 1 para realizar una sumarGit.");
         System.out.println("Pulsa 2 para realizar una resta.");
         System.out.println("Pulsa 3 para realizar una multiplicacion.");
         System.out.println("Pulsa 4 para realizar una division.");
@@ -41,9 +41,9 @@ public class Calculadora {
         System.out.println("El numero elegido es " + num2);
         return num2;
     } // Segundo número
-// Creamos la función para sumar
+// Creamos la función para sumarGit
 
-    public static double suma(double num1, double num2) {
+    public static double sumarGit(double num1, double num2) {
         return num1 + num2;
     } // Suma
 // Creamos la función para restar
@@ -70,6 +70,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        String saludo = "Esto es un cambio para Git";
         double num1, num2, resultado, resto;
         boolean repetir = true;
         int opcionElegida;
@@ -83,8 +84,8 @@ public class Calculadora {
             opcionElegida = teclado.nextInt();
             switch (opcionElegida) {
                 case 1:
-                    resultado = suma(num1, num2);
-                    System.out.println("El resultado de los numeros sumados es de " + resultado);
+                    resultado = sumarGit(num1, num2);
+                    System.out.println("El resultado de los numeros sumarGitdos es de " + resultado);
                     break;
 
                 case 2:
