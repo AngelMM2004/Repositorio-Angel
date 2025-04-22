@@ -70,6 +70,7 @@ public class Calculadora {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
+        String saludo = "Esto es un cambio para Git";
         double num1, num2, resultado, resto;
         boolean repetir = true;
         int opcionElegida;
